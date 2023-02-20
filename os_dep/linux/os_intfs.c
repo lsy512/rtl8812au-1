@@ -3445,9 +3445,9 @@ int _netdev_open(struct net_device *pnetdev)
 {
 	uint status;
 	_adapter *padapter = (_adapter *)rtw_netdev_priv(pnetdev);
-#ifdef CONFIG_IOCTL_CFG80211
+//#ifdef CONFIG_IOCTL_CFG80211
 	struct wireless_dev *wdev = padapter->rtw_wdev;
-#endif
+//#endif
 	struct pwrctrl_priv *pwrctrlpriv = adapter_to_pwrctl(padapter);
 #ifdef CONFIG_BT_COEXIST_SOCKET_TRX
 	HAL_DATA_TYPE		*pHalData = GET_HAL_DATA(padapter);
