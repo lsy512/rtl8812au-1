@@ -1183,8 +1183,8 @@ _PLATFORM_FILES += platform/platform_ARM_SUNxI_sdio.o
 endif
 
 ARCH := arm
-#CROSS_COMPILE := arm-none-linux-gnueabi-
-CROSS_COMPILE=/home/android_sdk/Allwinner/a10/android-jb42/lichee-jb42/buildroot/output/external-toolchain/bin/arm-none-linux-gnueabi-
+#CROSS_COMPILE := arm-openwrt-linux-
+CROSS_COMPILE=arm-openwrt-linux-
 KVER  := 5.4.26
 #KSRC:= ../lichee/linux-3.0/
 KSRC=/root/HandsomeMod/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-sunxi_cortexa7/linux-5.4.213
