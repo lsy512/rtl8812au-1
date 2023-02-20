@@ -1187,7 +1187,7 @@ ARCH := arm
 CROSS_COMPILE=/home/android_sdk/Allwinner/a10/android-jb42/lichee-jb42/buildroot/output/external-toolchain/bin/arm-none-linux-gnueabi-
 KVER  := 5.4.26
 #KSRC:= ../lichee/linux-3.0/
-KSRC=/home/android_sdk/Allwinner/a10/android-jb42/lichee-jb42/linux-3.0
+KSRC=/root/HandsomeMod/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-sunxi_cortexa7/linux-5.4.213
 endif
 
 ifeq ($(CONFIG_PLATFORM_ARM_SUN6I), y)
